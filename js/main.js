@@ -127,7 +127,7 @@ function buildMailtoUrl(data, isEN) {
     const body = isEN
         ? `Name: ${pick('name')}\nCompany: ${pick('company')}\nEmail: ${pick('email')}\nPhone/WhatsApp: ${pick('phone')}\nCategory: ${category}\nQuantity: ${pick('quantity')}\nDestination: ${pick('destination')}\n\nRequirement:\n${pick('requirement')}`
         : `姓名：${pick('name')}\n公司：${pick('company')}\n邮箱：${pick('email')}\n电话/WhatsApp：${pick('phone')}\n产品品类：${category}\n采购数量：${pick('quantity')}\n目的国家/地区：${pick('destination')}\n\n采购需求：\n${pick('requirement')}`;
-    return `mailto:hellenshi131@sina.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    return `mailto:sales@minghuaruiyi.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 
 // 询价表单提交
